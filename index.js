@@ -19,9 +19,11 @@ function johnLennonFacts (array) {
 
 function iLoveTheBeatles (number) {
   let result = [];
-  do ()
-    let string = array[i] + "!!!";
+  do {
+    let string = "I love the Beatles!";
     result.push(string);
+    number++;
   }
+  while (number < 15)
   return result;
 }
