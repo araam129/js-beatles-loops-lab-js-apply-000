@@ -16,3 +16,12 @@ function johnLennonFacts (array) {
   }
   return result;
 }
+
+function johnLennonFacts (array) {
+  let result = [];
+  for (let i = 0; i < array.length; i++) {
+    let string = array[i] + "!!!";
+    result.push(string);
+  }
+  return result;
+}
